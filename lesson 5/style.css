@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.block-box {
+    padding: 15px 0 15px 7px;
+    height: 705px;
+    background-color: rgb(236, 220, 240);
+    border: 1px solid #000;
+    border-radius: 40px 0 0 40px;
+    overflow: auto;
+}
+
+.box {
+    padding: 30px 31px 30px 30px;
+    margin: 0 0 20px 15px;
+    display: inline-block;
+    background-color: #c4ab8b;
+    width: 330px;
+    height: 280px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 10px #000;
+}
+
+.box-bottom {
+    margin: 0 0 0 15px;
+}
+
+.box-left {
+    margin: 0;
+}
+
+.text {
+    font-size: 20px;
+}
