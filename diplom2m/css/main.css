@@ -1,0 +1,399 @@
+.main {
+    padding-top: 118px;
+}
+
+.slider {
+    margin-top: 173px;
+    display: flex;
+    gap: 15px;
+}
+
+.swiper {
+    position: relative;
+    left: 65px;
+    margin: 0;
+    width: 1040px;
+    height: 195px;
+    /* overflow: visible !important; */
+}
+
+.swiper-wrapper {
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border: 2px solid #fff;
+    height: 100%;
+    font-family: 'Futura LtCn BT';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 0%;
+    text-transform: uppercase;
+}
+
+.swiper-slide_img {
+    z-index: 10;
+    margin-bottom: 41px;
+    max-width: 229px;
+}
+
+.swiper-slide_img img {
+    width: 100%;
+}
+
+.slide-title {
+    margin-bottom: 61px;
+}
+
+.slider-arrow {
+    margin-top: 54px;
+    display: flex;
+    gap: 44px;
+}
+
+.slider-prev, .slider-next {
+    display: flex;
+    align-items: center;
+    background: none;
+    height: 32px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+/* ====================== */
+
+.main__promo {
+    position: relative;
+    display: flex;
+}
+
+.main__promo p {
+    padding-left: 4px;
+    z-index: 0;
+    position: absolute;
+    top: 44px;
+    left: -12px;
+    font-family: 'Futura';
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 100%;
+    background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    pointer-events: none;
+    opacity: 0.1;
+}
+
+.main__sneaker-img {
+    position: relative;
+    z-index: 1;
+    margin-left: 43px;
+    max-width: 623px;
+}
+
+.main__sneaker-img::before {
+    content: '';
+    position: absolute;
+    top: 40.26%;
+    left: 34.99%;
+    width: 56px;
+    height: 56px;
+    background: url('../img/icons/plus1.svg') 50% 50% / 50% no-repeat;
+    background-color: #fff;
+    box-shadow: 0 0 4px 0 #1b355980;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.main__sneaker-img::after {
+    content: '';
+    position: absolute;
+    bottom: 26.39%;
+    right: 4.49%;
+    width: 56px;
+    height: 56px;
+    background: url('../img/icons/plus2.svg') 50% 50% / 50% no-repeat;
+    background-color: #fff;
+    box-shadow: 0 0 4px 0 #1b3559;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.sneaker {
+    width: 100%;
+    pointer-events: none;
+}
+
+.sneaker-line-review {
+    position: absolute;
+    bottom: -11.63%;
+    left: 10.27%;
+}
+
+.sneaker-line {
+    pointer-events: none;
+}
+
+.sneaker-review {
+    display: flex;
+    justify-content: center;
+}
+
+.sneaker-review img {
+    cursor: pointer;
+}
+
+/* ====================== */
+
+.main__character {
+    z-index: 1;
+    margin: 116px 0 0 91px;
+    max-width: 492px;
+}
+
+.main__character-title {
+    font-family: 'Futura Md BT';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 7.1px;
+    font-style: italic;
+    margin-bottom: 32px;
+}
+
+.main__character-price-size {
+    display: flex;
+    align-items: center;
+}
+
+.main__character-price-size img {
+    margin-right: 41px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.main__character-price {
+    font-family: 'Futura Hv BT';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main__character-size {
+    margin-left: 164px;
+    font-family: 'Futura Hv BT';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main__character-size span {
+    margin-right: 19px;
+    font-family: 'Futura Bk BT';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.main__character-size img {
+    cursor: pointer;
+    margin-bottom: 6px;
+    padding: 5px 0;
+}
+
+.main__character-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 16px;
+    margin-top: 25px;
+    max-width: 131px;
+    border: 1px solid #ffffff;
+    border-radius: 36px;
+
+    font-family: 'Futura Bk BT';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* ====================== */
+
+.main__arc {
+    z-index: 1;
+    position: absolute;
+    left: -82px;
+}
+
+.main__arc img {
+    pointer-events: none;
+}
+
+.main__color-1 {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #973030;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+
+    top: calc(0% - 5px);
+    left: calc(0% - 6px);
+
+    transition: all .1s;
+}
+
+.main__color-1:hover {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #fff;
+    top: calc(0% - 9px);
+    left: calc(0% - 10px);
+}
+
+.main__color-2 {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #9B0E95;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+
+    top: calc(0% + 60px);
+    left: calc(0% + 60px);
+
+    transition: all .1s;
+}
+
+.main__color-2:hover {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #fff;
+    top: calc(0% + 56px);
+    left: calc(0% + 56px);
+}
+
+.main__color-3 {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #002B7B;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+
+    top: calc(0% + 134px);
+    left: calc(0% + 108px);
+    /* top: 27.8%;
+    left: 78%; */
+
+    transition: all .1s;
+}
+
+.main__color-3:hover {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #fff;
+    top: calc(0% + 130px);
+    left: calc(0% + 104px);
+}
+
+.main__color-4 {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: #000000;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+
+    top: calc(0% + 228px);
+    left: calc(0% + 125.3px);
+
+    transition: all .1s;
+}
+
+.main__color-5 {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #A8000A;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+
+    top: calc(0% + 331px);
+    left: calc(0% + 108px);
+
+    transition: all .1s;
+}
+
+.main__color-5:hover {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #fff;
+    top: calc(0% + 327px);
+    left: calc(0% + 104px);
+}
+
+.main__color-6 {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #86942F;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+
+    top: calc(0% + 408px);
+    left: calc(0% + 60px);
+
+    transition: all .1s;
+}
+
+.main__color-6:hover {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #fff;
+    top: calc(0% + 404px);
+    left: calc(0% + 56px);
+}
+
+.main__color-7 {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #3D996D;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+
+    top: calc(0% + 470px);
+    left: calc(0% - 6px);
+
+    transition: all .1s;
+}
+
+.main__color-7:hover {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #fff;
+    top: calc(0% + 466px);
+    left: calc(0% - 10px);
+}

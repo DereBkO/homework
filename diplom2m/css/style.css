@@ -1,0 +1,41 @@
+@import "./fonts.css";
+@import "./reset.css";
+@import "./header.css";
+@import "./main.css";
+
+/* =============== Настройка страницы ============== */
+:root {
+    --main-text: #fff;
+    --main-bg: #000;
+    --transition: all .4s;
+    --transition-burger: all .2s;
+}
+
+body {
+    font-family: "Futura Bk BT", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--main-text);
+    background: var(--main-bg);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+/* ================================================ */
