@@ -1,0 +1,52 @@
+.bestsellers {
+    padding-top: 212px;
+}
+
+.bestsellers__title {
+    margin-top: 19px;
+    font-family: 'Futura Md BT';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.bestsellers__title span {
+    position: relative;
+}
+
+.bestsellers__title span::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 287px;
+    height: 55px;
+    background: #ba0000;
+    transform: rotate(11deg);
+    mix-blend-mode: multiply;
+}
+
+.bestsellers__photo {
+    margin-top: 107px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bestsellers__photo-img {
+    position: relative;
+}
+
+.bestsellers__photo-title {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    font-family: 'Futura Md BT';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
