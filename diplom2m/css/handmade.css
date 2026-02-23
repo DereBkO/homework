@@ -1,0 +1,101 @@
+.main {
+    position: relative;
+}
+
+.main-line-1bg {
+    position: absolute;
+    top: 432px;
+    left: 0;
+}
+
+.main-line-2bg {
+    position: absolute;
+    top: -1005px;
+    right: 0;
+}
+
+/* ====================== */
+
+.handmade {
+    padding-top: 279px;
+}
+
+.handmade__main {
+    position: relative;
+}
+
+.handmade__title {
+    margin-top: -26px;
+    font-family: 'Futura Md BT';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 156%;
+    text-align: center;
+}
+
+.handmade__title span:nth-child(1) {
+    margin-left: 106px;
+}
+
+.handmade__title span:nth-child(3) {
+    position: relative;
+}
+
+.handmade__title span:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 287px;
+    height: 55px;
+    background: #ba0000;
+    transform: rotate(11deg);
+    mix-blend-mode: multiply;
+}
+
+.handmade__title span:nth-child(5) {
+    margin-left: 40px;
+}
+
+.handmade__img1 {
+    position: relative;
+    top: 26px;
+    margin-left: 28px;
+}
+
+.handmade__img2 {
+    position: relative;
+    top: 7px;
+    margin-right: 25px;
+}
+
+.handmade__text {
+    max-width: 1064px;
+    margin: 68px auto 0 auto;
+    font-family: 'Futura Bk BT';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 300%;
+    text-align: center;
+}
+
+.handmade__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto 0 auto;
+    border: 1px solid #fff;
+    border-radius: 36px;
+    width: 175px;
+    height: 48px;
+}
+
+.handmade__button img {
+    max-width: 24px;
+}
+
+.handmade__sneakers {
+    position: absolute;
+    bottom: -372px;
+    left: -524px;
+}

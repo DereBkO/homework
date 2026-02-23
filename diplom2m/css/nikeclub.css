@@ -1,0 +1,69 @@
+.nikeclub {
+    padding-top: 287px;
+}
+
+.nikeclub__main {
+    position: relative;
+    padding: 64px 40px 65px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 1200px;
+    height: 300px;
+}
+
+.nikeclub__main::before {
+    content: '';
+    position: absolute;
+    bottom: -196px;
+    right: -349px;
+    width: 798px;
+    height: 376px;
+    background: url('../img/decor/sneakers/nikeclub.png');
+}
+
+.nikeclub__title {
+    font-family: 'Futura Md BT';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.nikeclub__text {
+    margin-top: 16px;
+    font-family: 'Futura Bk BT';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+}
+
+.nikeclub__button {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 36px;
+    width: 123px;
+    height: 36px;
+    font-family: 'Futura Bk BT';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 75%;
+}
+
+.nikeclub__button img {
+    max-width: 24px;
+}
+
+.nikeclub__img {
+    max-width: 227px;
+}
+
+.nikeclub__img img {
+    width: 100%;
+}

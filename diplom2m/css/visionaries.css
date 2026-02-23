@@ -1,0 +1,70 @@
+.visionaries {
+    padding-top: 277px;
+}
+
+.visionaries__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.visionaries__info {
+    max-width: 621px;
+}
+
+.visionaries__title {
+    font-family: 'Futura Md BT';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.visionaries__title span {
+    color: #ba0000;
+}
+
+.visionaries__text {
+    margin-top: 32px;
+    font-family: 'Futura Bk BT';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+}
+
+.visionaries__text:nth-child(3) {
+    margin-top: 32px;
+}
+
+.visionaries__text:nth-child(4) {
+    margin-top: 24px;
+}
+
+.visionaries__text:nth-child(5) {
+    margin-top: 24px;
+}
+
+.visionaries__text span {
+    font-family: 'Futura Hv BT';
+    font-weight: 900;
+}
+
+.visionaries__button {
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 36px;
+    width: 241px;
+    height: 36px;
+    font-family: 'Futura Bk BT';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 75%;
+}
+
+.visionaries__button img {
+    max-width: 24px;
+}

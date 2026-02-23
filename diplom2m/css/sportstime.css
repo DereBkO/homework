@@ -1,0 +1,62 @@
+.sportstime {
+    padding-top: 160px;
+}
+
+.sportstime__title {
+    margin: 0 auto;
+    max-width: 423px;
+}
+
+.sportstime__title img {
+    width: 100%;
+}
+
+.sportstime__product {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.gap {
+    grid-column: 2;
+}
+
+.sportstime__product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.sneakers {
+    margin-bottom: -35px;
+    z-index: 1;
+}
+
+.sportstime__protuct-title {
+    margin-top: 16px;
+    font-family: 'Futura LtCn BT';
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.sportstime__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 121px auto 0;
+    border: 1px solid #fff;
+    border-radius: 36px;
+    width: 204px;
+    height: 48px;
+    font-family: 'Futura Bk BT';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 75%;
+}
+
+.sportstime__button img {
+    max-width: 24px;
+}
