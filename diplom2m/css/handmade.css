@@ -7,6 +7,7 @@
     top: 432px;
     left: 0;
     pointer-events: none;
+    z-index: 0;
 }
 
 .main-line-2bg {
@@ -14,6 +15,7 @@
     top: -1005px;
     right: 0;
     pointer-events: none;
+    z-index: 0;
 }
 
 /* ====================== */
@@ -185,4 +187,5 @@
         max-width: 300px;
         margin: 35px auto 0 auto;
     }
+
 }
