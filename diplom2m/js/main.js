@@ -99,4 +99,20 @@
         },
     });
 
+    // =============== Bestsellers
+
+    const bestsellers = new Swiper('.bestsellers-slider', {
+        slidesPerView: 1,
+        spaceBetween: 16,
+
+        breakpoints: {
+            551: {
+                slidesPerView: 1.5,
+            },
+            701: {
+                slidesPerView: 2,
+            }
+        }
+    });
+
 })()
