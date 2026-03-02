@@ -1,5 +1,6 @@
 .header {
     background: url("../img/decor/main.png") 50% 50% / cover no-repeat;
+    z-index: 1;
 }
 
 .header__top {
@@ -236,4 +237,5 @@
     .header__icons {
         margin-top: 70px;
     }
+
 }
