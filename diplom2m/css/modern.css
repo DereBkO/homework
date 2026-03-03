@@ -75,3 +75,86 @@
     font-size: 16px;
     line-height: 100%;
 }
+
+@media (max-width: 1400px) {
+    .modern__main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modern__sneakersbox {
+        margin-left: 0;
+    }
+
+    .modern__group {
+        margin: 70px auto 0;
+        max-width: 800px;
+    }
+
+    .modern__text {
+        text-align: end;
+    }
+
+    .modern__button {
+        margin: 40px auto 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .modern__group {
+        max-width: 680px;
+    }
+
+    .modern__title {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .modern__text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .modern__text {
+        margin: 24px auto 0;
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 700px) {
+    .modern__title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .modern__text {
+        max-width: 430px;
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 500px) {
+    .modern__sneakersbox img {
+        max-width: 380px;
+        top: 30px;
+    }
+
+    .modern__title {
+        margin: 0 auto;
+        max-width: 270px;
+        font-size: 33px;
+        line-height: 53px;
+    }
+
+    .modern__title br {
+        display: none;
+    }
+
+    .modern__text {
+        max-width: 328px;
+        font-size: 16px;
+    }
+}
