@@ -115,4 +115,22 @@
         }
     });
 
+    // =============== Sportstime
+
+    const sportstime = new Swiper('.sportstime-slider', {
+        slidesPerView: 1,
+        spaceBetween: 40,
+        autoplay: true,
+
+        breakpoints: {
+            601: {
+                slidesPerView: 1.5,
+            },
+            701: {
+                slidesPerView: 2,
+            }
+        }
+    });
+
 })()
+
