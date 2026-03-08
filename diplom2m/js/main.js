@@ -85,20 +85,6 @@
         },
     });
 
-    // =============== Logos
-
-    const logos = new Swiper('.logos__main', {
-        loop: true,
-        speed: 5000,
-        slidesPerView: 'auto',
-        spaceBetween: 80,
-        allowTouchMove: false,
-        autoplay: {
-            delay: 0,
-            disableOnInteraction: false,
-        },
-    });
-
     // =============== Bestsellers
 
     const bestsellers = new Swiper('.bestsellers-slider', {
@@ -132,5 +118,20 @@
         }
     });
 
+    // =============== Logos
+
+    const logos = new Swiper('.logos__main', {
+        loop: true,
+        speed: 5000,
+        slidesPerView: 'auto',
+        spaceBetween: 80,
+        allowTouchMove: false,
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+        },
+    });
+
 })()
+
 
