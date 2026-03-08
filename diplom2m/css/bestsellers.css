@@ -71,7 +71,7 @@
 
 .bestsellers-slide {
     position: relative;
-    max-width: 300px;
+    width: 300px;
 }
 
 .bestsellers-slide img {
@@ -153,4 +153,5 @@
         width: 109px;
         height: 32px;
     }
+
 }
