@@ -11,18 +11,23 @@
     justify-content: space-between;
     border: 1px solid #fff;
     border-radius: 10px;
-    width: 1200px;
-    height: 300px;
+    max-width: 1200px;
+    max-height: 300px;
 }
 
-.nikeclub__main::before {
-    content: '';
+.nikeclub__bg {
     position: absolute;
-    bottom: -196px;
-    right: -349px;
-    width: 798px;
-    height: 376px;
-    background: url('../img/decor/sneakers/nikeclub.png');
+    max-width: 798px;
+    bottom: -65.33%
+        /* -196px */
+    ;
+    right: -29.08%
+        /* -349px */
+    ;
+}
+
+.nikeclub__bg img {
+    width: 100%;
 }
 
 .nikeclub__title {
@@ -66,4 +71,101 @@
 
 .nikeclub__img img {
     width: 100%;
+}
+
+@media (max-width: 1300px) {
+    .nikeclub__main {
+        max-width: 900px;
+        padding: 44px 40px 45px;
+    }
+
+    .nikeclub__bg {
+        max-width: 606px;
+        bottom: -57.33%;
+    }
+
+    .nikeclub__title {
+        font-size: 30px;
+    }
+
+    .nikeclub__text {
+        font-size: 18px;
+    }
+
+    .nikeclub__img {
+        max-width: 170px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nikeclub__main {
+        max-width: 650px;
+        padding: 30px 25px 31px;
+    }
+
+    .nikeclub__bg {
+        max-width: 430px;
+        bottom: -55.33%;
+    }
+
+    .nikeclub__title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .nikeclub__text {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .nikeclub__img {
+        max-width: 110px;
+    }
+}
+
+@media (max-width: 700px) {
+    .nikeclub__main {
+        justify-content: center;
+    }
+
+    .nikeclub__bg {
+        max-width: 400px;
+        bottom: -37.33%;
+        right: -48.08%;
+    }
+
+    .nikeclub__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nikeclub__main {
+        max-width: 367px;
+    }
+
+    .nikeclub__img {
+        margin-top: 26px;
+    }
+}
+
+@media (max-width: 500px) {
+    .nikeclub__main {
+        max-width: 330px;
+    }
+
+    .nikeclub__bg {
+        bottom: -39.33%;
+        right: -53.08%;
+    }
+
+    .nikeclub__title {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .nikeclub__text {
+        font-size: 9px;
+        line-height: 8px;
+    }
 }
