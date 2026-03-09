@@ -1,0 +1,30 @@
+.opensans {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.center {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wave {
+    word-spacing: 30px;
+    color: #500696;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-shadow: 1px 1px 2px #500696;
+}
+
+.line {
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
