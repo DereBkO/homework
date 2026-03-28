@@ -88,32 +88,3 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   handleCreateTodo(todos, input.value);
 });
-
-
-
-
-
-// Обработчик кликов по списку (делегирование)
-todosList.addEventListener('click', (event) => {
-  const target = event.target;
-  
-  // Находим родительский элемент li (задачу), чтобы узнать её ID
-  const todoItem = target.closest('.todo');
-  if (!todoItem) return;
-
-  const id = Number(todoItem.dataset.id);
-
-  // Логика кнопки "Выполнено"
-  if (target.classList.contains('button-complete')) {
-    const updatedTodo = completeTodoById(todos, id); // Меняем в массиве
-    if (updatedTodo) {
-      todoItem.classList.toggle('completed'); // Меняем в DOM
-    }
-  }
-
-  // Логика кнопки "Удалить"
-  if (target.classList.contains('button-delete')) {
-    deleteTodoById(todos, id); // Удаляем из массива
-    todoItem.remove(); // Удаляем из DOM
-  }
-});
